@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q TraceFind-v1-GitHub-Actions.zip
+          unzip -oq TraceFind-v1-GitHub-Actions.zip
           echo "Project extracted:"
           find . -maxdepth 3 -type f -name "settings.gradle.kts"
 
